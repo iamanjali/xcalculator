@@ -6,7 +6,7 @@ function Calculator() {
   let [res, setRes] = useState("");
 
   let handleInput = (val) => {
-    if (val === "c"){
+    if (val === "C"){
       setNum("");
       setRes("");
     }
@@ -54,7 +54,7 @@ function Calculator() {
       <button onClick={() => handleInput("3")}>3</button>
       <button onClick={() => handleInput("*")}>*</button>
       <br />
-      <button onClick={() => handleInput("c")}>c</button>
+      <button onClick={() => handleInput("C")}>C</button>
       <button onClick={() => handleInput("0")}>0</button>
       <button onClick={() => handleInput("=")}>=</button>
       <button onClick={() => handleInput("/")}>/</button>
